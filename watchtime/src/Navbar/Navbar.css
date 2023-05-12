@@ -1,0 +1,136 @@
+.header {
+  background-color: #163b57;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+    padding: 0 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .nav-title{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .decoration{
+    text-decoration: none;
+    color: white;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    color: white;
+  }
+  
+  .total-product{
+    font-size: 12px;
+    height: 17px;
+    width: 17px;
+    background-color: black;
+    border-radius: 20rem;
+    padding-left: 1px;
+    text-align: center;
+    margin-bottom: 24px;
+    position: absolute;
+    margin-right: 32px;
+  }
+
+  .cart-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+  
+  .input-feild{
+    width: 28rem;
+    border-radius: 9px;
+    height: 2rem;
+    /* margin-left: 17px; */
+  }
+
+.searh-btn{
+        /* margin-right: 11px; */
+        height: 20px;
+        /* padding: 0.5rem; */
+        background-color: white;
+        border: 2px solid #163b57;
+        border-radius: 9px;
+        margin-right: 1rem;
+        color: white;
+        width: 70px;
+        cursor: pointer;
+        font-size: 15px;
+        height: 2rem;
+        color: black
+}
+
+.searh-btn:hover{
+    background-color: #69398d;
+}
+
+.btn-div{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.btn-section{
+    margin-bottom: 1.5rem;
+    margin-right: 9rem;
+}
+
+.profile-img{
+    width: 2%;
+    height: 30px;
+    border-radius: 55rem;
+    position: fixed;
+}
+
+.dropdown-box{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    background-color: #163b57;
+    width: 149%;
+    height: 170px;
+    /* margin-right: 0rem; */
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.link{
+    text-decoration: none;
+}
+.dropdown{
+    padding-bottom: 0.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.dropdown-box:hover{
+    color: #163b57;
+}
